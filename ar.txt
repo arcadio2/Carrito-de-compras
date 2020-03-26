@@ -1,0 +1,32 @@
+insert into tipousuario (cla_tus) values ("Administrador");
+insert into tipousuario (cla_tus) values ("Usuario");
+insert into tipousuario (cla_tus) values ("Panadero");
+insert into tipousuario (cla_tus) values ("Cajero");
+alter table usuario add ultimasesion date not null;
+
+delimiter //
+create procedure registrar(nom_us varchar(20), cor_us varchar(40), con_us varchar(50), id_tus tinyint, ultimasesion date)
+begin 
+insert into usuario (nom_us,cor_us,con_us,id_tus, ultimasesion) values(nom_us, cor_us, con_us, id_tus, ultimasesion);
+end
+//
+delimiter ; 
+
+
+delimiter //
+create procedure select()
+begin 
+select * from usuario; 
+end
+//
+delimiter ; 
+
+
+
+delimiter // 
+create procedure getByUsername(_nom_us varchar(20))
+begin
+select * from usuario where nom_us=_nom_us; 
+end
+// 
+delimiter ; 

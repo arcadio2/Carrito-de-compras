@@ -1,0 +1,21 @@
+SMAP
+VisualizarTraje_jsp.java
+JSP
+*S JSP
+*F
++ 0 VisualizarTraje.jsp
+VisualizarTraje.jsp
+*L
+1,30:45
+31,6:76
+36,15:82
+50,3:97
+53,6:100,3
+59,9:118
+68:127,5
+69,3:132
+72,4:135,5
+76,7:155
+83,5:162,3
+88,230:177
+*E

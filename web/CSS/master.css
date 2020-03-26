@@ -1,0 +1,142 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/03/2019, 11:48:48 PM
+    Author     : arcad
+*/
+
+ * {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+body{
+    background-color: #F0F0E4;
+}
+ul{
+    list-style: none;
+}
+.tprin{
+    text-align:center;
+    color: white; 
+    font-family:verdana; 
+    font-size:1.9em;
+}
+.container {
+        width: 100%;
+        padding: 1rem;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+      }
+.problema-container {
+background-color: white;
+padding: 1rem;
+ box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+ }
+  input.problema-input {
+        padding: 1rem;
+        color: rgba(0, 0, 0, 0.57);
+        background: none;
+        border: none;
+        width: 100%;
+        border: 2px solid rgb(1, 111, 115);
+      }
+.Menu {
+	text-align: right;
+	margin: auto;
+         border: 2px solid rgb(17,12,6); 
+         background-color: white;
+	border-radius: 5px;
+	font-family: italic;
+	font-weight:bold;
+        font-size:1.2em;
+        border-color:#F0F0E5;
+}
+
+.nav {
+
+}
+.Menu ul, li{
+	display: inline-block; 
+	padding: 20px 40px;
+}
+.Menu li a {
+	color:#B9B9B3;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+}
+.Menu li a:hover{
+	color:#909073;
+}
+
+.letra {
+
+}
+
+.letra1 {
+    text-align: right;
+}
+
+.font-registro {
+
+}
+
+.registro {
+
+}
+
+.problema-input2 {
+padding: 1rem;
+        color: black;
+        background: #52AA0D;
+        border: none;
+        width: 100%;
+        border-radius: 10px;
+        
+}
+.problema-input2:hover{
+    color:white;
+}
+
+.oculto {
+width: 400px; /* Esto es el ancho de la caja de aviso */ 
+padding: 7px 10px 7px 37px; /* Separamos un poco el contenido del borde*/
+border: 0px solid #f0ea8b; /* Esto es color del borde y su grosura  */
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px; /* Aplicamos un borde de radio a la imagen de aviso */
+font-size:11px; /* Esto es el tamaño de letra */
+color:red;
+
+}
+
+.img-container{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-container{
+
+    display: inline-block;
+    text-align: center;
+}
+.container{
+    margin:auto; 
+    padding: auto;
+    
+}

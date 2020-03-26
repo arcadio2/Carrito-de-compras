@@ -1,0 +1,120 @@
+.producto{
+    margin-top: 60px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: #ffab66;
+    border-bottom: 2px solid black;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+.nombre-producto{
+    grid-column: 1/4;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+.modify-producto{
+    grid-column: 4/5; 
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+.modify-producto > a{
+    text-decoration: none;
+    color: black;
+    padding: 15px auto;
+}
+.modify-producto > a:hover{
+    text-decoration: none;
+    color: black;
+    padding: 15px auto;
+    background-color: #ffc2b1;
+}
+.delete-producto{
+    grid-column: 5/6;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+.delete-producto > a{
+    text-decoration: none;
+    color: black;
+    padding: 15px auto;
+}
+.delete-producto > a:hover{
+    text-decoration: none;
+    color: black;
+    padding: 15px auto;
+    background-color: #ffc2b1;
+}
+
+.subproducto{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #ffab66;
+    border-bottom: 2px solid black;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+.imagen{
+    grid-column: 1/1;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+.imagen > img{
+    height: 25px;
+}
+.nombre{
+    grid-column: 2/2;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+.modify-2{
+    grid-column: 3/3; 
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+.modify-2 > a{
+    text-decoration: none;
+    color: black;
+    padding: 15px auto;
+}
+.modify-2 > a:hover{
+    text-decoration: none;
+    color: black;
+    padding: 15px auto;
+    background-color: #ffc2b1;
+}
+.delete-2{
+    grid-column: 4/4;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+.delete-2 > a{
+    text-decoration: none;
+    color: black;
+    padding: 15px auto;
+}
+.delete-2 > a:hover{
+    text-decoration: none;
+    color: black;
+    padding: 15px auto;
+    background-color: #ffc2b1;
+}

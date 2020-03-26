@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="x.ico">
+    <title>Sesión</title>
+    <link href="./Registro_files/bootstrap.min.css" rel="stylesheet">
+    <link href="./Registro_files/signin.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
+
+  <body class="text-center">
+    <!-- Default form register -->
+<form class="text-center border border-light p-5" action="Iniciarsesion" method="post" name="form_reg" onsubmit="return registro()">
+
+    <p class="h4 mb-4">Registrarse</p>
+
+    <div class="form-row mb-4">
+        <div class="col">
+           
+            <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="Nombre" name="nomus">
+        </div>
+        <div class="col">
+            
+            <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Apellido">
+        </div>
+    </div>
+
+   
+    <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail" name="email">
+
+ 
+    <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Contraseña"
+           aria-describedby="defaultRegisterFormPasswordHelpBlock" name="password">
+    <select name="com">
+        <option>Ectomorfo</option>
+        <option>Endomorfo</option>
+        <option>Mesomorfo</option>
+    </select>
+    <br>
+    <p id="error_reg"> </p>
+
+    <button class="btn btn-info my-4 btn-block" type="submit">Registrarse</button>
+    <a class="btn btn-info btn-block my-4" role="button" href="index.html" >Inicio</a>
+
+    <hr>
+
+   
+  
+</form>
+
+    <script type="text/javascript" src="js/forms/ises.js"> </script> 
+
+</body></html>
